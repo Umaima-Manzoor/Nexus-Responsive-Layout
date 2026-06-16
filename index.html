@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apex Studios - Responsive Multi-Section Layout">
+  <title>Apex Studios — Home</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#" class="logo">
+        <i class="fas fa-cube"></i> Apex Studios
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#features" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link nav-link-cta">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="hero-badge reveal">Award Winning Agency</span>
+          <h1 class="hero-title reveal">We Build Digital <br>Experiences That <span class="text-accent">Matter</span></h1>
+          <p class="hero-subtitle reveal">Crafting high-performance websites and applications with a mobile-first approach. We turn your vision into pixel-perfect reality.</p>
+          <div class="hero-actions reveal">
+            <a href="#portfolio" class="btn btn-primary">View Our Work <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrapper">
+            <img src="https://picsum.photos/seed/apex-hero/600/500.jpg" alt="Abstract digital design" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES / SERVICES SECTION ========== -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Do</span>
+          <h2 class="section-title">Services Tailored For You</h2>
+          <p class="section-subtitle">From initial strategy to final deployment, we handle every aspect of your digital presence.</p>
+        </div>
+        
+        <div class="features-grid">
+          <!-- Card 1 -->
+          <article class="card reveal">
+            <div class="card-icon"><i class="fas fa-code"></i></div>
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-text">Robust, scalable web applications built with modern frameworks and clean, maintainable code.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <!-- Card 2 -->
+          <article class="card reveal">
+            <div class="card-icon"><i class="fas fa-palette"></i></div>
+            <h3 class="card-title">UI/UX Design</h3>
+            <p class="card-text">Intuitive interfaces designed with the user in mind. We bridge the gap between beauty and usability.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <!-- Card 3 -->
+          <article class="card reveal">
+            <div class="card-icon"><i class="fas fa-mobile-screen-button"></i></div>
+            <h3 class="card-title">Mobile First</h3>
+            <p class="card-text">Responsive designs that look and perform flawlessly on any device, starting from the smallest screen.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <!-- Card 4 -->
+          <article class="card reveal">
+            <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+            <h3 class="card-title">SEO Optimization</h3>
+            <p class="card-text">Data-driven strategies to boost your visibility and ensure your website ranks where it belongs.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <!-- Card 5 -->
+          <article class="card reveal">
+            <div class="card-icon"><i class="fas fa-server"></i></div>
+            <h3 class="card-title">Cloud Hosting</h3>
+            <p class="card-text">Secure, blazing-fast hosting solutions with 99.9% uptime and automatic scaling capabilities.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <!-- Card 6 -->
+          <article class="card reveal">
+            <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+            <h3 class="card-title">Cyber Security</h3>
+            <p class="card-text">Protecting your digital assets with state-of-the-art security protocols and regular audits.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT PREVIEW SECTION ========== -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrapper reveal">
+          <img src="https://picsum.photos/seed/apex-about/700/600.jpg" alt="Team collaborating" loading="lazy">
+          <div class="about-badge">
+            <span class="about-badge-number">8+</span>
+            <span class="about-badge-text">Years of Experience</span>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title">Driven by Innovation, Defined by Results</h2>
+          <p class="about-text">We are a collective of designers, developers, and strategists passionate about pushing the boundaries of web technologies. We believe that great design isn't just about how it looks, but how it works.</p>
+          <p class="about-text">Our mobile-first approach guarantees that every project we deliver provides a seamless experience, whether viewed on a smartphone, tablet, or desktop monitor.</p>
+          
+          <div class="about-stats">
+            <div class="about-stat">
+              <span class="about-stat-number">120+</span>
+              <span class="about-stat-label">Projects Done</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat-number">50+</span>
+              <span class="about-stat-label">Happy Clients</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat-number">15+</span>
+              <span class="about-stat-label">Team Members</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary" style="margin-top: 2rem;">Discover More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PORTFOLIO PREVIEW SECTION ========== -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Our Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">A showcase of our latest work, demonstrating clean code and responsive layouts.</p>
+        </div>
+        
+        <div class="portfolio-grid">
+          <article class="portfolio-card portfolio-card-lg reveal">
+            <img src="https://picsum.photos/seed/apex-p1/800/600.jpg" alt="Fintech Dashboard" loading="lazy">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">UI/UX Design</span>
+              <h3 class="portfolio-title">Fintech Dashboard</h3>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="https://picsum.photos/seed/apex-p2/400/400.jpg" alt="E-Commerce Platform" loading="lazy">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Development</span>
+              <h3 class="portfolio-title">E-Commerce Platform</h3>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="https://picsum.photos/seed/apex-p3/400/400.jpg" alt="Health App" loading="lazy">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Mobile App</span>
+              <h3 class="portfolio-title">Health Tracker App</h3>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="https://picsum.photos/seed/apex-p4/400/400.jpg" alt="Brand Identity" loading="lazy">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Branding</span>
+              <h3 class="portfolio-title">Corporate Identity</h3>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="https://picsum.photos/seed/apex-p5/400/400.jpg" alt="SaaS Landing" loading="lazy">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Web Design</span>
+              <h3 class="portfolio-title">SaaS Landing Page</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT CTA SECTION ========== -->
+    <section class="contact-cta" id="contact">
+      <div class="container contact-cta-content reveal">
+        <h2 class="contact-cta-title">Ready to Elevate Your Digital Presence?</h2>
+        <p class="contact-cta-text">Let's collaborate to build something extraordinary. Get in touch today for a free consultation.</p>
+        <div class="contact-cta-actions">
+          <a href="mailto:hello@apexstudios.com" class="btn btn-white">Start a Project <i class="fas fa-paper-plane"></i></a>
+          <a href="tel:+1234567890" class="btn btn-outline-white"><i class="fas fa-phone"></i> Call Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo"><i class="fas fa-cube"></i> Apex Studios</a>
+        <p>Building the future of the web, one pixel at a time. Your trusted partner for digital excellence.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+          <li><a href="#">SEO</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2024 Apex Studios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
