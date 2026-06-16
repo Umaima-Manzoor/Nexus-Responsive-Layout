@@ -112,8 +112,8 @@ apex-studios/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/apex-studios.git
-   cd apex-studios
+   git clone https://github.com/Umaima-Manzoor/Nexus-Responsive-Layout.git
+   cd Nexus-Responsive-Layout
    ```
 
 2. **Open the project**
