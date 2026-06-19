@@ -44,7 +44,7 @@ A fully responsive, mobile‑first multi‑section webpage built with HTML5, CSS
 ## 📁 Project Structure
 
 ```
-apex-studios/
+Nexus-Responsive-Layout/
 ├── index.html          # Main HTML file with all sections
 ├── styles.css          # Complete CSS (mobile‑first, media queries)
 ├── script.js           # JavaScript for interactivity
